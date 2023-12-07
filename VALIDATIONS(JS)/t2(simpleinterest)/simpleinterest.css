@@ -1,0 +1,19 @@
+table{
+    background-color: silver;
+    border: 3px solid black; 
+}
+*{
+    padding: 5px;
+}
+label{
+    color: white;
+}
+#b1{
+    background-color: rgb(159, 127, 255);
+}
+#b2{
+    background-color: brown;
+}
+#span1,#span2,#span3{
+     color: red;
+}

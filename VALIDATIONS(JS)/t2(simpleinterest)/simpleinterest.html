@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SIMPLE INTEREST</title>
+        <link rel="stylesheet" href="simpleinterest.css">
+        <script src="simpleinterest.js"></script>
+    </head>
+    <body>
+        <form action="servlet1" onsubmit="return simpleinterest()" onreset="return erasedata()">
+            <table align="center">
+                <caption>ADDITION APPLICATION</caption>
+                 <tr>
+                    <td>
+                        <label for="id1">
+                            Enter prinicipal amount 
+                        </label>               
+                     </td>
+                     <td>
+                        <input type="number" id="id1" name="prinicipal">
+                     </td>
+                     <td>
+                        <span id="span1">*</span>
+                     </td>
+                     
+                     </tr> 
+                     <tr>
+                        <td>
+                            <label for="id2">
+                                Enter time in months 
+                            </label>               
+                         </td>
+                         <td>
+                            <input type="number" id="id2" name="time">
+                         </td>
+                         <td>
+                            <span id="span2">*</span>
+                         </td>
+                     </tr>
+                     <tr>
+                        <td>
+                            <label for="id3">
+                                Enter rate of interest 
+                            </label>               
+                         </td>
+                         <td>
+                            <input type="number" id="id3" name="interest">
+                         </td>
+                         <td>
+                            <span id="span3">*</span>
+                         </td>
+                     </tr>
+                     <tr>
+                        <td>
+                            <input type="submit" value="add">
+                        </td> 
+                        <td>
+                            <input type="reset" value="clear">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                         <div id="div1"></div>
+                        </td>
+                    </tr>
+            </table>
+        </form>
+        
+    </body>
+</html>

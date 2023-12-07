@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ADDITION</title>
+        <link rel="stylesheet" href="avg.css">
+        <script src="avg.js"></script>
+    </head>
+    <body>
+        <form action="servlet1" onsubmit="return average()" onreset="return erasedata()">
+            <table align="center">
+                <caption>AVERAGE APPLICATION</caption>
+                 <tr>
+                    <td>
+                        <label for="id1">
+                            Enter n1 value 
+                        </label>               
+                     </td>
+                     <td>
+                        <input type="number" id="id1" name="firstnumber">
+                     </td>
+                     <td>
+                        <span id="span1">*</span>
+                     </td>
+                     
+                     </tr> 
+                     
+                     <tr>
+                        <td>
+                            <label for="id2">
+                                Enter n2 value 
+                            </label>               
+                         </td>
+                         <td>
+                            <input type="number" id="id2" name="secondnumber">
+                         </td>
+                         <td>
+                            <span id="span2">*</span>
+                         </td>
+                     </tr>
+                     <tr>
+                        <td>
+                            <label for="id3">
+                                Enter n2 v3lue 
+                            </label>               
+                         </td>
+                         <td>
+                            <input type="number" id="id3" name="thirdnumber">
+                         </td>
+                         <td>
+                            <span id="span3">*</span>
+                         </td>
+                     </tr>
+                     <tr>
+                        <td>
+                            <input type="submit" value="AVG">
+                        </td> 
+                        <td>
+                            <input type="reset" value="clear">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                         <div id="div1"></div>
+                        </td>
+                    </tr>
+            </table>
+        </form>
+        
+    </body>
+</html>

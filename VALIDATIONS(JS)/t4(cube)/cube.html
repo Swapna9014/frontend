@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ADDITION</title>
+        <link rel="stylesheet" href="cube.css">
+        <script src="cube.js"></script>
+    </head>
+    <body>
+        <form action="servlet1" onsubmit="return cube()" onreset="return erasedata()">
+            <table align="center">
+                <caption>CUBE APPLICATION</caption>
+                 <tr>
+                    <td>
+                        <label for="id1">
+                            Enter n value 
+                        </label>               
+                     </td>
+                     <td>
+                        <input type="number" id="id1" name="number">
+                     </td>
+                     <td>
+                        <span id="span1">*</span>
+                     </td>
+                     
+                     </tr> 
+                     <tr>
+                        <td>
+                            <input type="submit" value="cube">
+                        </td> 
+                        <td>
+                            <input type="reset" value="clear">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                         <div id="div1"></div>
+                        </td>
+                    </tr>
+            </table>
+        </form>
+        
+    </body>
+</html>
